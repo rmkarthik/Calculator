@@ -60,4 +60,12 @@
     return self.programStack;
 }
 
++ (double)runProgram:(id)program {
+    return 0;
+}
+
++ (NSString *) descriptionOfTheProgram:(id)program {
+    return nil;
+}
+
 @end
